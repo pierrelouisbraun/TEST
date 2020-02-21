@@ -1,4 +1,5 @@
 <?php
 $a = phpinfo();
-echo 'test';
+$xmlData = file_get_contents('http://challenge01.root-me.org/web-serveur/ch13/index.php');
+echo $xmlData;
 ?>
